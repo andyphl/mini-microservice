@@ -21,13 +21,13 @@ A mini microservice practice without database for learning microservice architec
 | /posts/:id/comments | GET | - | Retrieve all comments associated with the given post ID |
 | /events | POST | {} | Get incoming events |
 
-## Query service (port 4002)
+### Query service (port 4002)
 | Path | Method | Body | Goal |
 |-|-|-|-|
 | /posts | GET | - | Provide full posts and comments |
 | /events | POST | {type: string, data: object} | Get incoming events, combine data to posts data by event type |
 
-## Event-bus (port 4005)
+### Event-bus (port 4005)
 - With async mode
   
 | Path | Method | Body | Goal |
