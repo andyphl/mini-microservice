@@ -2,6 +2,7 @@
 /client/node_modules
 /client/.pnp
 /client/.pnp.js
+/client/.env
 
 # react testing
 /client/coverage
@@ -25,13 +26,17 @@
 
 # comments service dependencies
 /comments/node_modules
+/comments/.env
 
 # posts service dependencies
 /posts/node_modules
+/posts/.env
 
 # query service dependencies
 /query/node_modules
+/query/.env
 
 # event-bus service dependencies
 /event-bus/node_modules
+/event-bus/.env
 
